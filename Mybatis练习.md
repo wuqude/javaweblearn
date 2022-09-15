@@ -690,6 +690,8 @@ select * from tb_brand where and company_name like ? and brand_name like ?
   ```
 
   > 注意：需要给每个条件前都加上 and 关键字。
+<<<<<<< HEAD
+=======
 
 ### 1.5 单个条件（动态SQL）
 
@@ -1192,3 +1194,4 @@ User select(@Param("username") String username,@Param("password") String passwor
 
 在接口方法参数上使用 `@Param` 注解，Mybatis 会将 `arg` 开头的键名替换为对应注解的属性值。
 
+>>>>>>> 14bae23225bb7b75cd9d5f88697a672f364e7781
